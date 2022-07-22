@@ -1,0 +1,28 @@
+html, body {
+    background-color: black;
+}
+
+.carousel-caption {
+    top: 62%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.card-title {
+    margin-top: 22%;
+
+}
+
+.card {
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.card-img {
+    border: 0px;
+    border-radius: 0px !important;
+}
+
+#first-card {
+    margin-top: 75px;
+}
