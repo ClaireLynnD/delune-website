@@ -1,5 +1,5 @@
 html, body {
-    background-color: black;
+    background-image: url("images/rainbowSky.png");
 }
 
 .carousel-caption {
@@ -25,4 +25,10 @@ html, body {
 
 #first-card {
     margin-top: 75px;
+}
+
+#twitch-container {
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }

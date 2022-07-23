@@ -1,5 +1,5 @@
 let options = {
-    width: 854,
+    width: "100%",
     height: 480,
     channel: "clairelynnd",
     // Only needed if this page is going to be embedded on other websites

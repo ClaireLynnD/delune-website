@@ -13,48 +13,59 @@
 <body>
 
   <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand " href="./index.html">
-        <img src="./images/delune logo.png" alt="DeLune" width="120" height="50" class="d-inline-block align-text-top">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="shop.html">Shop</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Quick Links
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.twitch.tv/clairelynnd">Twitch</a></li>
-            <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCWCv8JRxq3b6cjBJR9A8diw">YouTube</a></li>
-            <li><a class="dropdown-item" href="https://www.twitter.com/clairelynnd">Twitter</a></li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand " href="./index.html">
+            <img src="./images/delune logo.png" alt="DeLune" width="120" height="50" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Quick Links
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.twitch.tv/clairelynnd">Twitch</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCWCv8JRxq3b6cjBJR9A8diw">YouTube</a></li>
+                <li><a class="dropdown-item" href="https://www.twitter.com/clairelynnd">Twitter</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-warning" type="submit">Search</button>
-      </form>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+    </div>
+  </nav>
+
+  <div class="container" id="twitch-container">
+    <div class="row">
+    <div class="col-md-8" id="twitch-embed"></div>
+      <div class="col-md-4" id="twitch-chat">
+        <iframe id="twitch-chat-embed"
+            src="https://www.twitch.tv/embed/clairelynnd/chat?parent=euphonious-hotteok-de570c.netlify.app"
+            height="480"
+            width="80%">
+        </iframe>
+      </div>
     </div>
   </div>
-</nav>
 
-<div id="twitch-embed"></div>
-
-<script src="https://embed.twitch.tv/embed/v1.js"></script>
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-<script type="text/javascript" src="twitch.js"></script>
+  <script type="text/javascript" src="twitch.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
