@@ -1,0 +1,30 @@
+body {
+    background-image: url("images/rainbowSky.png");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+    width: 80%;
+}
+
+#first-card {
+    margin-top: 85px;
+}
+
+#commission-form {
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.formItem {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#submitSuccess {
+    margin-bottom: 5px;
+}

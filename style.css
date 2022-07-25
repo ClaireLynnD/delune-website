@@ -1,5 +1,8 @@
-html, body {
+body {
     background-image: url("images/rainbowSky.png");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .carousel-caption {
@@ -31,8 +34,4 @@ html, body {
     margin-top: 75px;
     padding-top: 15px;
     padding-bottom: 10px;
-}
-
-#submit-commission-button {
-    margin-top: 90px;
 }
