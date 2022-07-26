@@ -1,0 +1,17 @@
+body {
+    background-image: url("images/rainbowSky.png");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#first-card {
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+
+.card {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
